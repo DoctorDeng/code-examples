@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: ai
+  ai:
+    mcp:
+      # MCP Server 配置.
+      server:
+        # 启用 MCP Service.
+        enabled: true
+        # 服务名称.
+        name: mcp-server
+        # 版本.
+        version: 1.0.0
+        # 同步.
+        type: sync
+        # 基础 url.
+        #base-url: /api/v1
