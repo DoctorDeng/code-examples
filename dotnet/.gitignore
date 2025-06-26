@@ -1,0 +1,61 @@
+# Created using recommendations from official .NET .gitignore template
+
+# Build results
+/[Dd]ebug/
+/[Rr]elease/
+/x64/
+/x86/
+/[Aa][Rr][Mm]/
+/[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+[Nn]u[Pp]kg/
+
+# Visual Studio files
+*.sln.cache
+*.user
+*.suo
+*.vspscc
+*.vssscc
+.appinstalllog
+.lock.json
+
+# Visual Studio for Mac
+*.userprefs
+
+# Rider
+.idea/
+*.iml
+*.iws
+
+# JetBrains Rider user-specific files
+.idea/
+.reSharper/
+*.sln.DotSettings.user
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# MSBuild
+MSBuildFileList.xml
+
+# DotSettings backup
+*.DotSettings.user
+
+# Tooling manifests (used by local tools)
+.tool-manifest
+.dotnet/tools
+
+# Publish output
+publish/
+artifacts/
+
+# Environment files
+.env
