@@ -24,7 +24,7 @@ public class VarHandleTest {
             .lookup()
             .findVarHandle(Counter.class, "count", int.class);
         LOGGER.log(System.Logger.Level.INFO, varHandle.get(counter));
-        counter.count++;
+        varHandle.setVolatile(counter, 1);
         LOGGER.log(System.Logger.Level.INFO, varHandle.getVolatile(counter));
         LOGGER.log(System.Logger.Level.INFO, varHandle.getOpaque(counter));
         LOGGER.log(System.Logger.Level.INFO, varHandle.getAcquire(counter));
