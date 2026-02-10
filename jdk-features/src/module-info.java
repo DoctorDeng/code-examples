@@ -3,5 +3,6 @@ module jdk.features {
     requires java.net.http;
     requires jdk.jfr;
     requires jdk.incubator.vector;
+    requires jdk.compiler;
     exports common;
 }
